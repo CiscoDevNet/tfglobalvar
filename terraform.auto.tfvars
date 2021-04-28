@@ -15,8 +15,8 @@
 #cloud_api_key_id = ""
 
 #Common workspaces
-ikswsname = "sbiksws"
-globalwsname = "globalws"
+ikswsname = "sb_iks"
+globalwsname = "sb_globalvar"
 
  
 #Configurable and to be uploaded based on sandbox env

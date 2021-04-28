@@ -6,6 +6,9 @@ variable "globalwsname" {
 variable "ikswsname" {
   type = string
 }
+output "ikswsname" {
+        value = var.ikswsname
+}
 #Output all global variables
 variable "clustername" {
   type = string

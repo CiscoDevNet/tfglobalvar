@@ -41,8 +41,8 @@ masterdesiredsize = 1
 workergrpname = "testsjc-worker-pool"
 workerdesiredsize = 0
 masterinfraname = "masterinfranamesjc"
-infrapolname = "testsjcinfrapol"
-instancetypename = "testsjcinstancetype"
+infrapolname = "sbcluster_infra_config_policy"
+instancetypename = "sbcluster-master-instance"
 #network params
 timezone = "America/New_York"
 domain_name = "demo.intra"

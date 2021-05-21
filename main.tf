@@ -10,6 +10,12 @@ output "ikswsname" {
         value = var.ikswsname
 }
 #Output all global variables
+variable "password" {
+  type = string
+}
+output "password" {
+        value = var.password
+}
 variable "clustername" {
   type = string
 }

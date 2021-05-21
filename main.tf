@@ -15,6 +15,7 @@ variable "password" {
 }
 output "password" {
         value = var.password
+	sensitive = true
 }
 variable "clustername" {
   type = string

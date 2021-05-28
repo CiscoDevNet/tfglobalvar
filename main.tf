@@ -58,13 +58,13 @@ variable "network_pod" {
   type = string
 }
 output "network_pod" {
-        value = var.clustername + "_" + var.network_pod
+        value = "${var.clustername}_${var.network_pod}"
 }
 variable "network_service" {
   type = string
 }
 output "network_service" {
-        value = var.clustername + "_" + var.network_service
+        value = "${var.clustername}_${var.network_service}"
 }
 variable "k8s_version" {
   type = string

@@ -151,7 +151,7 @@ output "device_name" {
         value = var.device_name
 }
 variable "portgroup" {
-  type = string
+  type = list(string) 
 }
 output "portgroup" {
         value = var.portgroup
